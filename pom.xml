@@ -6,15 +6,17 @@
 
     <groupId>org.redis</groupId>
     <artifactId>redis</artifactId>
-    <version>${version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
 
     <modules>
+        <module>redis-server</module>
     </modules>
 
     <properties>
         <javac.target.version>1.8</javac.target.version>
+        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
     </properties>
 
     <dependencyManagement>
